@@ -17,7 +17,7 @@
 		if ($("#hitung-pinjaman [name=dana_maksimal]").is(':checked')) {
 			$("#hitung-pinjaman [name=dana_maksimal").attr("disabled");
 			$("#hitung-pinjaman [name=dana_maksimal").val("");
-			window.open("https://api.whatsapp.com/send?phone=6287792963030&text=Hallo%20Admin,%0ASaya%20mau%20tanya%20hitungan%20pinjaman:%0A*Dana Pinjaman*:Maksimal%0A*Tenor*:"+tenor+"%0A*Kota%2fKabupaten*:"+kota+"%0A*Merek,%20Tipe%20%26%20Tahun*:"+merek+"%0ATerimakasih", '_blank');
+			window.open("https://api.whatsapp.com/send?phone=6287792963030&text=Hallo%20Admin%20tanpasurvey.com,%0ASaya%20mau%20tanya%20hitungan%20pinjaman:%0A*Dana Pinjaman*:Maksimal%0A*Tenor*:"+tenor+"%0A*Kota%2fKabupaten*:"+kota+"%0A*Merek,%20Tipe%20%26%20Tahun*:"+merek+"%0ATerimakasih", '_blank');
 		} else {
 			window.open("https://api.whatsapp.com/send?phone=6287792963030&text=Hallo%20Admin,%0ASaya%20mau%20tanya%20hitungan%20pinjaman:%0A*Dana Pinjaman*:"+jml_dana+"%0A*Tenor*:"+tenor+"%0A*Kota%2fKabupaten*:"+kota+"%0A*Merek,%20Tipe%20%26%20Tahun*:"+merek+"%0ATerimakasih", '_blank');
 		}
