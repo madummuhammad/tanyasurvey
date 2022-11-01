@@ -1,0 +1,192 @@
+.btn-primary {
+  background: #002F5F;
+  margin-top: 30px;
+  padding: 10px 10px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #EEAF30;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.btn-primary:hover {
+  border-bottom: 5px solid #002F5F;
+}
+
+.text-orange {
+  color: #EEAF30 !important;
+}
+
+.btn-primary:hover {
+  background: #EEAF30;
+}
+
+.btn-orange {
+  background: orange;
+}
+
+.hero .btn-get-started {
+  border-bottom: 5px solid #EEAF30;
+}
+
+.hero .btn-get-started:hover {
+  background: #EEAF30;
+  border-bottom: 5px solid #002F5F;
+}
+
+.border-20px {
+  border-radius: 20px;
+}
+
+.text-primary {
+  color: #002F5F !important;
+}
+
+.border-e-0 {
+  border-right: none;
+}
+
+.border-s-0 {
+  border-left: none;
+}
+
+.bg-primary {
+  background: #002F5F !important;
+}
+
+.bg-orange {
+  background: #EEAF30 !important;
+  color: white !important;
+  border-color: #EEAF30 !important;
+}
+
+.border-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #EEAF30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 1px;
+}
+
+.ls-4px {
+  letter-spacing: 4px !important;
+}
+
+.check {
+  font-size: 20px;
+}
+
+.border-bottom-1px {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.border-black {
+  border-color: #747476 !important;
+}
+
+.table-angsuran {
+  border: 1px solid black;
+}
+.table-angsuran thead {
+  border-bottom: 2px solid black;
+  border-right: 2px solid #EEAF30;
+  border-left: 2px solid #EEAF30;
+  border-top: 2px solid #EEAF30;
+}
+
+.services .service-box.primary {
+  border-bottom: 3px solid #002F5F;
+}
+
+.services .service-box.primary .icon {
+  color: #002F5F;
+  background: #dbf3fe;
+}
+
+.services .service-box.primary .read-more {
+  color: #2db6fa;
+}
+
+.services .service-box.primary:hover {
+  background: #002F5F;
+}
+
+.services .service-box.purple {
+  border-bottom: 3px solid #9A2B91;
+}
+
+.bg-grey {
+  background: #EEF2F5;
+}
+
+.navbar ul li a {
+  font-size: 20px;
+  color: #002F5F;
+}
+.navbar ul li a:focus {
+  font-size: 20px;
+  color: #002F5F;
+}
+.navbar ul li a:hover {
+  font-size: 20px;
+  color: #002F5F;
+  text-decoration: underline;
+  text-decoration-color: #EEAF30;
+}
+.navbar ul li a.active {
+  font-size: 20px;
+  color: #002F5F;
+  text-decoration: underline;
+  text-decoration-color: #EEAF30;
+}
+.navbar ul li a.active:focus {
+  font-size: 20px;
+  color: #002F5F;
+  text-decoration: underline;
+  text-decoration-color: #EEAF30;
+}
+.navbar .navbar-wa {
+  background: #39DD56;
+  display: none;
+  border-radius: 20px;
+}
+
+.sub-text-orange {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0;
+  color: #EEAF30;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  color: #002F5F;
+  font-size: 40px;
+}
+.hero .btn-get-started {
+  background: #002F5F;
+  border-radius: 20px;
+}
+
+.icon {
+  width: 35%;
+}
+
+@media (max-width: 991px) {
+  .navbar .navbar-wa {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
